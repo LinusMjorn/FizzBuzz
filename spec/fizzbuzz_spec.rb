@@ -29,9 +29,3 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(4)).to eq 4
   end
 end
-
-describe 'fizzbuzz' do
-  it 'returns "That is not a number"' do
-    expect(fizzbuzz("")).to eq "That is not a number"
-  end
-end
